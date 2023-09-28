@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment | AutoMob-Mechanic</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <a href="home.html"><h2>AutoMob-Mechanic</h2></a>
+    <nav><a href="home.html">Home</a> | <a href="services.html">Services</a> | <a href="booking.html">Booking</a> | <a href="mailto:contact@automob.co.in">contact@automob.co.in <i class="material-icons">&#xe0be;</i></a> | 999 999 9999 </nav>
+    <hr>
+    <br>
+    <h1><strong>Schedule Your Appointment</strong></h1>
+    <br>
+    <form action="booking-success.html" method="get">
+    <div>Appointment Date: <input type="date" name="Date" required></div>
+    <br>
+
+    <div>Address: <textarea name="Address" rows="10" cols="40" required></textarea></div>
+    <br>
+    <div>City: <input type="text" name="City" placeholder="Mumbai,Pune..." required></div>
+    <br>
+    <div>State: <input list="State" name="State" placeholder="Maharahtra,Kerla.." required>
+        <datalist id="State">
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Gujrat">Gujrat</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Haryana">Haryana</option>
+        </datalist></div>  
+    <br>
+    <div>Send Notification:<input type="checkbox" name="Email" value="Yes"> Email &nbsp;<input type="checkbox" name="SMS" value="Yes">SMS </div>
+    <br>
+    <br>
+    <input type="submit" value="Book">
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <hr>
+        <div> Copyright &copy; 2020 AutoMob-Mechanic. All Rights Reserved</div>
+    </footer>
+    </body>
+</html>
